@@ -9,21 +9,6 @@ This repo provides a simple web UI to run your provided Python code and generate
 - Enter a prompt to generate a 200x200 image using the specified pipeline.
 - Requires a GPU with CUDA and the listed dependencies.
 
-## Usage
-
-1. **Clone the repo and install dependencies:**
-   ```bash
-   pip install --upgrade pip
-   pip install -r requirements.txt
-   ```
-
-2. **Start the server:**
-   ```bash
-   uvicorn app:app --host 0.0.0.0 --port 7860
-   ```
-
-3. **Open the web UI:**
-   - Go to `http://localhost:7860` in your browser.
 
 ## Backend Python code (core logic)
 
